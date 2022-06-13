@@ -31,18 +31,7 @@ const Navigation = () => {
 							About
 						</a>
 					</Link>
-					<Link href={'/blog'}>
-						<a
-							className={
-								pathname === '/blog'
-									? 'font-medium tracking-wider transition-colors dark:text-sky-500 text-sky-500 hover:text-sky-500 uppercase dark:text-white'
-									: 'font-medium tracking-wider transition-colors text-gray-900 dark:hover:text-sky-500 hover:text-sky-500 uppercase dark:text-white'
-							}
-						>
-							Blog
-						</a>
-					</Link>
-				<ThemeSwitch />
+			<ThemeSwitch />
 				</div>
 			</div>
 		</div>
