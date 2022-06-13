@@ -10,7 +10,7 @@ export default function MetaContainer({children, ...customMeta}) {
 
     const meta = {
         title: "aquapichu",
-        description: `Presenting a dream from another land. Get in touch with me if you would like to collaborate`,
+        description: `Presenting a dream from another land. Also function as a shrimp pasta recipe. Get in touch with me if you would like to collaborate!`,
         type: "website",
         date: new Date().toDateString(),
         ...customMeta,
