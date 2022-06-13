@@ -1,24 +1,32 @@
 {
-  "name": "svelte-app",
-  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "rollup -c",
-    "dev": "rollup -c -w",
-    "start": "sirv public --no-clear"
-  },
-  "devDependencies": {
-    "@rollup/plugin-commonjs": "^17.0.0",
-    "@rollup/plugin-node-resolve": "^11.0.0",
-    "rollup": "^2.3.4",
-    "rollup-plugin-css-only": "^3.1.0",
-    "rollup-plugin-livereload": "^2.0.0",
-    "rollup-plugin-svelte": "^7.0.0",
-    "rollup-plugin-terser": "^7.0.0",
-    "svelte": "^3.0.0"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
-    "sirv-cli": "^2.0.0",
-    "three": "^0.141.0"
+    "@paypal/react-paypal-js": "^7.8.1",
+    "@stripe/stripe-js": "^1.31.0",
+    "axios": "^0.26.1",
+    "next": "^12.1.6",
+    "next-themes": "^0.1.1",
+    "react": "^17.0.2",
+    "react-content-loader": "^6.2.0",
+    "react-dom": "^17.0.2",
+    "rss-parser": "^3.12.0",
+    "stripe": "^8.222.0"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.4",
+    "@types/react": "17.0.38",
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.16.0",
+    "eslint-config-next": "12.1.6",
+    "postcss": "^8.4.14",
+    "prettier": "^2.6.2",
+    "prettier-plugin-tailwindcss": "^0.1.11",
+    "tailwindcss": "^3.1.2",
+    "typescript": "4.5.4"
   }
 }
