@@ -1,3 +1,4 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx}',
@@ -10,7 +11,11 @@ module.exports = {
     extend: {},
   },
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'deva': ['deva-ideal'],
+      }
+    },
   },
   plugins: [],
 }

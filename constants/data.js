@@ -7,8 +7,8 @@ const userData = {
   address: 'Amsterdam, Netherlands.',
   projects: [
     {
-      title: 'Reimagine Fonts',
-      link: 'https://www.adobe.com/products/illustrator/typography-font-design.html',
+      title: 'Reimagine Font',
+      link: '/Playground/ReimagineFont/0',
       imgUrl: 'https://www.adobe.com/content/dam/cc/us/en/products/illustrator/SEO_Illustrator_Type_Font_Design_P2.1_416x208.jpg.img.jpg',
     },
     {
