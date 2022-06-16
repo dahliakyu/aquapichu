@@ -11,10 +11,10 @@ const Blog = () => {
             </h1>
             <hr></hr>
             <div className = "text-xl dark:text-stone-400 md:text-2xl pt-5 text-left">
-                15/06/2022
+                15/06/2022 -
             </div> 
         </div>
-            <div className="bg-[#F1F1F1] dark:bg-stone-900 grid grid-cols-1 md:grid-cols-1 leading-relaxed gap-8 py-20 pb-40 text-lg">
+            <div className="bg-[#F1F1F1] dark:bg-stone-900 grid grid-cols-1 px-5 leading-relaxed gap-8 py-20 pb-40 text-lg">
                 <div className="max-w-4xl mx-auto">
                     The Korean alphabet or Hangul consists of 24 basic letters: 14 consonants (ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅅ ㅇ ㅈ ㅊ ㅋ ㅌ ㅍ ㅎ), 10 vowels (ㅏ ㅑ ㅓ ㅕ ㅗ ㅛ ㅜ ㅠ ㅡ ㅣ) and extra 
                 </div>

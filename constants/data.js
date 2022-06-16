@@ -9,7 +9,7 @@ const userData = {
     {
       title: 'Reimagine Font',
       link: '/Playground/ReimagineFont/0',
-      imgUrl: 'https://www.adobe.com/content/dam/cc/us/en/products/illustrator/SEO_Illustrator_Type_Font_Design_P2.1_416x208.jpg.img.jpg',
+      imgUrl: '/fontDesigns/namida.svg',
     },
     {
       title: "Manuscripts Don't burn",

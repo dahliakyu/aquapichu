@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from "next/link";
+import Image from "next/image";
 
 const Blog = () => {
   return (
@@ -13,17 +14,17 @@ const Blog = () => {
                 Working on it since mid-June 2022
             </div> 
         </div>
-            <div className="bg-[#F1F1F1] dark:bg-stone-900 grid grid-cols-1 md:grid-cols-1 md:px-5 leading-relaxed gap-8 py-20 pb-40 text-lg">
+            <div className="bg-[#F1F1F1] dark:bg-stone-900 grid grid-cols-1 md:grid-cols-1 md:px-5 leading-relaxed gap-8 px-5 py-20 pb-40 text-lg">
                 <div className="max-w-4xl mx-auto">
                     I had the idea of this project inspired by a font designer friend (<a className = "text-yellow-900 hover:text-yellow-700 dark:text-orange-500" href={'https://www.instagram.com/jacob.j.wise/'}>Jacob</a>, a very talented elf) of mine, attended workshops for Hangul and Arabic font design and created beautiful typeface despite not being an expert in the languages himself. Then I thought maybe if I can build a web page that allows me to construct and manipulate Hangul characters, I can finally (perhaps) start to learn Korean properly.
                 </div>
                 <div className="max-w-4xl mx-auto ">
                     <h4 className="text-xl font-bold">Current roadmap:</h4>
-                    <ul className='pt-5 list-disc leading-normal list-outside'>
+                    <ul className='pt-5 px-5 list-decimal leading-normal list-outside md:px-10'>
                         <li>Take myself through <a className = "text-yellow-900 hover:text-yellow-700 dark:text-orange-500" href={'1'}>Hangul basics</a>;</li>
                         <li>Design the elementary strokes in Illustrator;</li>
                         <li>Technical Part I:
-                            <ul className='list-disc list-inside'>
+                            <ul className='list-decimal list-inside'>
                                 <li>
                                     import the designs as interactive svgs using three.js and @react-fiber/three;
                                 </li>
@@ -41,7 +42,7 @@ const Blog = () => {
                         <li>Go through some typeface design basics;</li>
                         <li>
                             Technical Part II:
-                            <ul className=' list-disc list-inside'>
+                            <ul className='list-decimal list-inside'>
                                 <li>
                                     Add 2D grid (fixed plane) and slidebars to the canvas;
                                 </li>
