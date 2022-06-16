@@ -25,13 +25,13 @@ const Blog = () => {
                         <li>Technical Part I:
                             <ul className='list-disc list-inside'>
                                 <li>
-                                    import the designs as interactive svgs using @react-fiber/three;
+                                    import the designs as interactive svgs using three.js and @react-fiber/three;
                                 </li>
                                 <li>
-                                    test adding multiple svgs in the same scene and their interactions;
+                                    test adding multiple .svg files in the same scene and their interactions;
                                 </li>
                                 <li>
-                                    test extrusion of the svg file;
+                                    test extrusion of the .svg file;
                                 </li>
                                 <li>
                                     add selection box to choose which strokes that you want to add;
@@ -47,6 +47,9 @@ const Blog = () => {
                                 </li>
                                 <li>
                                     Introduce controlled and scalable movements between elements based on the typeface design principles;
+                                </li>
+                                <li>
+                                    Add animation with @react-fiber/drei
                                 </li>
                             </ul>                        
                         </li>
