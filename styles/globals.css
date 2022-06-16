@@ -4,10 +4,13 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply dark:bg-stone-800;
-}
-
-body {
-  @apply  font-deva
+@layer base
+{
+  body {
+    @apply font-deva dark:bg-stone-800;
+  }
+  
+  p { 
+    @apply lg:text-xl
+  }
 }
