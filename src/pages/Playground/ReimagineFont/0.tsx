@@ -21,7 +21,7 @@ const Blog = () => {
                     <h4 className="text-xl font-bold">Current roadmap:</h4>
                     <ul className='pt-5 list-disc leading-normal list-outside'>
                         <li>Take myself through <a className = "text-yellow-900 hover:text-yellow-700 dark:text-orange-500" href={'1'}>Hangul basics</a>;</li>
-                        <li>Design the elementary strokes in Illustrtor;</li>
+                        <li>Design the elementary strokes in Illustrator;</li>
                         <li>Technical Part I:
                             <ul className='list-disc list-inside'>
                                 <li>
