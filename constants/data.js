@@ -7,16 +7,16 @@ const userData = {
   address: 'Amsterdam, Netherlands.',
   projects: [
     {
-      title: 'Reimagine Font',
-      link: '/Playground/ReimagineFont/0',
-      imgUrl: '/fontDesigns/namida.svg',
+      title: 'Animate with three.js',
+      link: '/Logs/Animate/ReactThreeFiber/OrbitingBirds/OrbitingBirds',
+      imgUrl:  '/HolderImages/flamingo.jpg',
     },
     {
-      title: "Manuscripts Don't burn",
-      link: 'https://www.masterandmargarita.eu',
-      imgUrl: 'https://www.masterandmargarita.eu/mobile/images/03karakters/rakov.jpg',
+      title: 'Reimagine Font',
+      link: '/Logs/ReimagineFont/0',
+      imgUrl: '/HolderImages/namida.svg',
     },
-     ],
+  ],
 }
 
 export default userData

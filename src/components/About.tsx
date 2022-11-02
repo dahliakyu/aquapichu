@@ -14,22 +14,11 @@ const About = () => {
             <p className="mb-4">
               This is Ellen, you can also call me El. A still quite recent
               academia runaway pacing my way into the indie game world.
-              Currently developing a 2D third-person escape adventure game
-              inpired by own personal anger facing all these still-happening
-              human-trafficking events.
-            </p>
-            <p className="mb-4">
-              If the anger level is somehow at a very low bar, I would spend
-              (waste) a lot of time configuring vim, attempting literacy with
-              different js frameworks meanwhile dithering if I should have just
-              sticked to one of them. I also love to explore small projects in
-              blender dreaming that maybe one day I could also turn the game
-              into 3D.
+              Moderately obsessed with pixel art, bio-inspired simulations, non-linear systems, configuring vim and attempting literacy with different js frameworks.
             </p>
             <p className="mb-4">
               Welcome to my digital playground :D I will be sharing the fun
-              times I had with this digital world, or probably more of those
-              crying moments and memorable painful lessons.
+              times I had with this digital world.
             </p>
           </div>
         </div>

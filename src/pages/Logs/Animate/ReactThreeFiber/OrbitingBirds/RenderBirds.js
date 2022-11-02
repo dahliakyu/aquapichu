@@ -1,17 +1,17 @@
 import { Suspense, useMemo } from 'react'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
-import Bird from '../../components/experiments/Bird'
+import BirdPhysics from './BirdPhysics'
 
-export default function BirdsPage() {
+function RenderBirds({ number=1000 }) {
   const birds = useMemo(
     () =>
-      new Array(10).fill().map((_, index) => {
+      new Array(number).fill().map((_, index) => {
         const x =
           (15 + Math.random() * 30) * (Math.round(Math.random()) ? -1 : 1)
         const y = -10 + Math.random() * 20
         const z = -5 + Math.random() * 10
-        const bird = ['stork', 'parrot', 'flamingo'][
+        const bird = ['stork', 'parrot', 'alsoparrot', 'flamingo'][
           Math.round(Math.random() * 2)
         ]
         const speed = bird === 'stork' ? 0.5 : bird === 'flamingo' ? 2 : 5
@@ -33,7 +33,6 @@ export default function BirdsPage() {
       }),
     []
   )
-
   return (
     <Canvas camera={{ position: [0, 0, 35] }}>
       <ambientLight intensity={2} />
@@ -41,9 +40,11 @@ export default function BirdsPage() {
       <OrbitControls />
       <Suspense fallback={null}>
         {birds.map((props) => (
-          <Bird {...props} key={props.key} />
+          <BirdPhysics {...props} key={props.key} />
         ))}
       </Suspense>
     </Canvas>
   )
 }
+
+export default RenderBirds

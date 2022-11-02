@@ -2,7 +2,8 @@ import { useEffect } from 'react'
 import { useFrame } from '@react-three/fiber'
 import { useAnimations, useGLTF } from '@react-three/drei'
 
-export default function Bird({ speed, factor, url, ...props }) {
+
+export default function BirdPhysics({ speed, factor, url, ...props }) {
   const { nodes, animations } = useGLTF(url)
   const { ref, mixer } = useAnimations(animations)
 
@@ -13,7 +14,7 @@ export default function Bird({ speed, factor, url, ...props }) {
 
   useFrame((state, delta) => {
     ref.current.rotation.y +=
-      Math.sin((delta * factor) / 2) * Math.cos((delta * factor) / 2) * 1.5
+      Math.sin((delta * factor) / 2) * Math.cos((delta * factor) / 2) * 3
     mixer.update(delta * speed)
   })
 

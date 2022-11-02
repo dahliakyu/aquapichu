@@ -24,22 +24,22 @@ const Navigation = () => {
             <a
               className={
                 pathname === '/'
-                  ? 'font-medium tracking-wider transition-colors dark:text-sky-500 text-sky-500 hover:text-sky-500 uppercase dark:text-white'
+                  ? 'font-medium tracking-wider transition-colors dark:hover:text-sky-500 text-sky-500 hover:text-sky-500 uppercase dark:text-white'
                   : 'font-medium tracking-wider transition-colors text-gray-900 dark:hover:text-sky-500 hover:text-sky-500 uppercase dark:text-white'
               }
             >
               About
             </a>
           </Link>
-          <Link href={'/Playground/Overview'}>
+          <Link href={'/Logs/Overview'}>
             <a
               className={
-                pathname === '/Playground/Overview'
-                  ? 'font-medium tracking-wider transition-colors dark:text-sky-500 text-sky-500 hover:text-sky-500 uppercase dark:text-white'
+                pathname === '/Logs/Overview'
+                  ? 'font-medium tracking-wider transition-colors dark:hover:text-sky-500 text-sky-500 hover:text-sky-500 uppercase dark:text-white'
                   : 'font-medium tracking-wider transition-colors text-gray-900 dark:hover:text-sky-500 hover:text-sky-500 uppercase dark:text-white'
               }
             >
-              Playground
+              Logs
             </a>
           </Link>
 
