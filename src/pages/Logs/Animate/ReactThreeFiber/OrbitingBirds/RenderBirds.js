@@ -3,7 +3,10 @@ import { Canvas } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
 import BirdPhysics from './BirdPhysics'
 
-function RenderBirds({ number=1000 }) {
+
+
+
+function RenderBirds({number}) {
   const birds = useMemo(
     () =>
       new Array(number).fill().map((_, index) => {
