@@ -6,7 +6,7 @@ import BirdPhysics from './BirdPhysics'
 
 
 
-function RenderBirds({ number}) {
+function RenderBirds({number}) {
   const birds = useMemo(
     () =>
       new Array(number).fill().map((_, index) => {
