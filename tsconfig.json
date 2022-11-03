@@ -20,6 +20,6 @@
       "@/*": ["src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/pages/Logs/Animate/ReactThreeFiber/OrbitingBirds/tools/DiscreetSlider.jsx"],
   "exclude": ["node_modules"]
 }
