@@ -33,7 +33,7 @@ export default function DiscreteSlider() {
         />
       </Box>
     {value}
-    <RenderBirds number = {value} />
+    <RenderBirds />
     </div>
   );
 }
