@@ -8,7 +8,6 @@ const userData = {
   projects: [
     {
       title: 'Animate with three.js',
-      link: '/Logs/Animate/ReactThreeFiber/OrbitingBirds/OrbitingBirds',
       imgUrl:  '/HolderImages/flamingo.jpg',
     },
     {
