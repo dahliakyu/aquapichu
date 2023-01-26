@@ -6,43 +6,44 @@ import { useRouter } from 'next/router'
 const Navigation = () => {
   const { pathname } = useRouter()
   return (
-    <div className="sticky top-0 z-20 py-2 md:py-6 md:mb-6 dark:bg-neutral-900 bg-white">
-      <div className="container px-4 mx-auto lg:max-w-4xl flex items-center justify-between">
-        <div className="items-start flex">
+    <div className="sticky top-0 z-20 bg-white py-2 dark:bg-neutral-900 md:mb-6 md:py-6">
+      <div className="container mx-auto flex items-center justify-between px-4 lg:max-w-4xl">
+        <div className="flex items-start">
           <Link href="/">
             <a
               className={
-                'font-medium tracking-wider transition-colors text-gray-900 dark:hover:text-sky-500 hover:text-sky-500 uppercase dark:text-white'
+                'font-medium uppercase tracking-wider text-gray-900 transition-colors hover:text-sky-500 dark:text-white dark:hover:text-sky-500'
               }
             >
               AQUAPICHU
             </a>
           </Link>
         </div>
-        <div className="items-end flex space-x-5">
+        <div className="flex items-end space-x-5">
           <Link href="/">
             <a
               className={
                 pathname === '/'
-                  ? 'font-medium tracking-wider transition-colors dark:hover:text-sky-500 text-sky-500 hover:text-sky-500 uppercase dark:text-white'
-                  : 'font-medium tracking-wider transition-colors text-gray-900 dark:hover:text-sky-500 hover:text-sky-500 uppercase dark:text-white'
+                  ? 'font-medium uppercase tracking-wider text-sky-500 transition-colors hover:text-sky-500 dark:text-white dark:hover:text-sky-500'
+                  : 'font-medium uppercase tracking-wider text-gray-900 transition-colors hover:text-sky-500 dark:text-white dark:hover:text-sky-500'
               }
             >
               About
             </a>
           </Link>
+          {/**
           <Link href={'/Logs/Overview'}>
             <a
               className={
                 pathname === '/Logs/Overview'
-                  ? 'font-medium tracking-wider transition-colors dark:hover:text-sky-500 text-sky-500 hover:text-sky-500 uppercase dark:text-white'
-                  : 'font-medium tracking-wider transition-colors text-gray-900 dark:hover:text-sky-500 hover:text-sky-500 uppercase dark:text-white'
+                  ? 'font-medium uppercase tracking-wider text-sky-500 transition-colors hover:text-sky-500 dark:text-white dark:hover:text-sky-500'
+                  : 'font-medium uppercase tracking-wider text-gray-900 transition-colors hover:text-sky-500 dark:text-white dark:hover:text-sky-500'
               }
             >
               Logs
             </a>
           </Link>
-
+          **/}
           <ThemeSwitch />
         </div>
       </div>
