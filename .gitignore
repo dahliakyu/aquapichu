@@ -15,10 +15,6 @@
 # production
 /build
 
-#experiments
-/pages/experiments
-/components/experiments
-
 # misc
 .DS_Store
 *.pem
@@ -39,3 +35,6 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+# reserved until fully migrate to another doccing website
+/pages/Logs
