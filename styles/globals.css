@@ -1,16 +1,15 @@
-@import url("https://use.typekit.net/yog3vfm.css");
+@import url('https://use.typekit.net/yog3vfm.css');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base
-{
+@layer base {
   body {
     @apply font-deva dark:bg-stone-800;
   }
-  
-  p { 
-    @apply lg:text-xl
+
+  p {
+    @apply lg:text-xl;
   }
 }
