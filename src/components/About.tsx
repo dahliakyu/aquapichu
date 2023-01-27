@@ -1,28 +1,38 @@
 import React from 'react'
+import Link from 'next/link'
 import Image from 'next/image'
 import profile from 'public/1604.png'
 
 const About = () => {
   return (
-    <div className="container px-4 mx-auto">
-      <div className="lg:space-x-5 lg:flex lg:flex-row item-center lg:-mx-4 flex flex-col-reverse text-center lg:text-left">
-        <div className="lg:px-4 lg:mt-12 ">
-          <h1 className="text-4xl font-bold text-gray-900 lg:text-6xl dark:text-white">
+    <div className="container mx-auto px-4">
+      <div className="item-center flex flex-col-reverse text-center lg:-mx-4 lg:flex lg:flex-row lg:space-x-5 lg:text-left">
+        <div className="lg:mt-12 lg:px-4 ">
+          <h1 className="text-4xl font-bold text-gray-900 dark:text-white lg:text-6xl">
             Hello hello! 👾👾
           </h1>
-          <div className="mt-8 lg:pt-10 text-gray-800 dark:text-white">
+          <div className="mt-8 text-gray-800 dark:text-white lg:pt-10">
             <p className="mb-4">
               This is Ellen, you can also call me El. A still quite recent
               academia runaway pacing my way into the indie game world.
-              Moderately obsessed with pixel art, bio-inspired simulations, non-linear systems, configuring vim and attempting literacy with different js frameworks.
+              Moderately obsessed with pixel art, bio-inspired simulations,
+              non-linear systems, configuring vim and attempting literacy with
+              different js frameworks.
             </p>
             <p className="mb-4">
-              Welcome to my digital playground :D I will be sharing the fun
-              times I had with this digital world.
+              This space is more like a place holder for showing full projects
+              in the future right now. Please visit my{' '}
+              <a
+                href="https://docs.aquapichu.com/"
+                className="underline hover:text-blue-300"
+              >
+                docs website
+              </a>{' '}
+              for daily logs and documentations!!
             </p>
           </div>
         </div>
-        <div className="flex-shrink-0 lg:mt-30 lg:px-6 my-10">
+        <div className="lg:mt-30 my-10 flex-shrink-0 lg:px-6">
           <Image
             src={profile}
             alt="Profile"
@@ -32,8 +42,8 @@ const About = () => {
             height={250}
             placeholder="blur"
           />
-          <div className="flex justify-center mt-6">
-            <div className="flex md:flex lg:flex space-x-4 font-medium text-gray-800 sm:block dark:text-white">
+          <div className="mt-6 flex justify-center">
+            <div className="flex space-x-4 font-medium text-gray-800 dark:text-white sm:block md:flex lg:flex">
               <a
                 className="transition-colors hover:text-sky-500"
                 target="_blank"
